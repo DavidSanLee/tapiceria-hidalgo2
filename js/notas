@@ -1,0 +1,70 @@
+ <div class="contendor-grid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+        /* ---------------------------- */
+.contendor-grid {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 4rem;
+    grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
+}
+/*-----------------------------*/
+
+<div class="tarjetas">
+            
+    <div class="contenedorGrillas">
+        <div class="item item-1">
+            <div class="seguros">
+                <img src="./img/Mejores-Aseguradoras.png" alt="" class="imagenSeguros">
+                <h2>Trabajamos con las mejores aseguradoras del pais, la mejor calidad a los mejores precios.</h2>
+            </div>
+        </div>
+        <div class="item item-2">
+            <div class="carrucelServicios">
+                <img src="./img/reparacion-de-elevadores2.jpg" alt="" width="300" class="imagendeCarrucel">
+                <h2>Reparacion de elevadores</h2>
+            </div>
+        </div>
+        <div class="item item-3">
+            <div class="carrucelServicios">
+                <img src="./img/tapizado_asientos1jpg.jpg" alt="" class="imagendeCarrucel">
+                <h2>Tapizado de asientos</h2>
+            </div>
+        </div>
+        <div class="item item-4">
+            <div class="carrucelServicios">
+                <img src="./img/cambio_de_cristales1.jpg" alt="" class="imagendeCarrucel">
+                <h2>Cambio de Parabrisas</h2>
+            </div>
+        </div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-9">9</div>
+        <div class="item item-10">10</div>
+        
+        
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="./img/Logo_Vitro_G.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+</div>
