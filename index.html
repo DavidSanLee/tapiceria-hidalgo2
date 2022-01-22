@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/estilos.css">
+    
 
 
 </head>
@@ -24,17 +25,17 @@
                 <img src="./assets/menu.svg"  class="nav__img">
             </label>
             <input type="checkbox" id="menu" class="nav__input" >
-            <div class="nav__menu">
-                <a href="#" class="nav__item">Inicio</a>
-                <a href="#" class="nav__item">Nosotros</a>
-                <a href="#" class="nav__item">Servicios</a>
-                <a href="#" class="nav__item">Sucursales</a>
-                <a href="#" class="nav__item">Generar cita</a>
-                <a href="#" class="nav__item">Contactanos</a>
+            <div id="inicio" class="nav__menu">
+                <a href="#principal" class="nav__item">Inicio</a>
+                <a href="#nosotros" class="nav__item">Nosotros</a>
+                <a href="#servicios" class="nav__item">Servicios</a>
+                <a href="#formulario" class="nav__item">Generar cita</a>
+                <a href="#sucursales" class="nav__item">Sucursales</a>
+                <a href="#contactanos" class="nav__item">Contactanos</a>
             </div>
             
         </div> 
-        <div class="sectionDiv1" >
+        <div class="sectionDiv1">
                 
                 <div class="contact1">
 
@@ -43,13 +44,13 @@
                 </div>
                 <div class="contact2">
 
-                    <a href="https://www.facebook.com/" target="_blank" >
+                    <a href="https://www.facebook.com/Vitrocar-Manzanillo-276845559419231" target="_blank" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook text-primary"  viewBox="0 0 16 16">
                             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                         </svg>
                     </a>
         
-                    <a href="https://web.whatsapp.com/" target="_blank" >
+                    <a href="https://wa.me/+5213141181251?text=Buenas%20tardes%20me%20podrias%20dar%20informacion" target="_blank" >
         
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp text-success" viewBox="0 0 16 16">
                             <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
@@ -66,7 +67,7 @@
         
                     <svg class="sinLink" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
                         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
-                    </svg>314-55-20-17-60-50 
+                    </svg>. 314-118-1251
         
                 </div>
 
@@ -75,7 +76,7 @@
     </header>
 
     
-    <main class="principal">
+    <main class="principal" id="principal" >
         <br>
         <br>
         <br>
@@ -84,7 +85,7 @@
         <br>
 
         <div class="seguros">
-            <img src="./img/Mejores-Aseguradoras.png" alt="" class="imagenSeguros">
+            <img src="./img/aseguradoras2.png" alt="" class="imagenSeguros">
             <!--<div class="texto-encima">Trabajamos con las mejores aseguradoras, simpre el mejor: </div> -->
             <div class="centrado">
                 <p>Trabajamos con las mejores aseguradoras,</p>
@@ -99,16 +100,16 @@
         
         <br>
         <br>
-        <div class="boottrapPrincipal">
+        <div  id="nosotros" class="boottrapPrincipal">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                   <div class="card">
-                    <img src="./img/fachadaHidalgo.jpg" class="card-img-top" alt="...">
+                    <img src="./img/frenteHidalgo1.jpeg" class="card-img-top" alt="..." height="500px">
                     <div class="card-body">
                       <h5 class="card-title">Por calidad y tradicion, Tapiceria Hidalgo</h5>
                       <p class="card-text">Colocamos con calidad parabrisas para autos cumpliendo por completo las 
                         necesidades de los clientes. 
-                        El mejor precio y servicio los encontrará sólo en Parabrisas de Occidente, así 
+                        El mejor precio y servicio los encontrará sólo en Tapiceria Hidalgo, así 
                         que no dude en comunicarse por los medios disponibles o visitar directamente las 
                         instalaciones, donde será atendido con gusto.</p>
                     </div>
@@ -116,7 +117,7 @@
                 </div>
                 <div class="col">
                   <div class="card">
-                    <img src="./img/camionetasHidalgo.jfif" class="card-img-top" alt="...">
+                    <img src="./img/tapizadoHidalgo.jpeg" class="card-img-top" alt="..." height="500px"  >
                     <div class="card-body">
                       <h5 class="card-title">Beneficios</h5>
                       <p class="card-text">Empresa 100% mexicana <br> La mejor velocidad de respuesta <br> Servicio eficiente <br>Especialistas en parabrisas urgentes y/o difíciles <br> Fabricación de prototipos en tiempo récord <br> Facilidad de pago en compras de mayoreo y medio mayoreo Variedad y existencia</p>
@@ -128,7 +129,7 @@
         <br>
         
 
-        <div class="contenedor2">
+        <div id="servicios" class="contenedor2">
             
             <div class="carrusel2">
                 <div class="carrusel__contenedor2">
@@ -308,13 +309,74 @@
 				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
 			</div>
 		</form>
-        <div class="mapas">
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1640046193993!6m8!1m7!1shT3nzKBp3g1rie7JHLZPCQ!2m2!1d19.06953657806128!2d-104.2661148229835!3f173.84!4f1.6500000000000057!5f0.5970117501821992" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.8683752513634!2d-104.266208341229!3d19.06952391841297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb654ab104b178714!2zMTnCsDA0JzEwLjIiTiAxMDTCsDE1JzU5LjEiVw!5e0!3m2!1ses-419!2smx!4v1640045968279!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+        <h1>Localizanos</h1>
+        <div  id="sucursales" class="contendor-grid-mapas">
+            
+            <div  >
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1640046193993!6m8!1m7!1shT3nzKBp3g1rie7JHLZPCQ!2m2!1d19.06953657806128!2d-104.2661148229835!3f173.84!4f1.6500000000000057!5f0.5970117501821992" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.8683752513634!2d-104.266208341229!3d19.06952391841297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb654ab104b178714!2zMTnCsDA0JzEwLjIiTiAxMDTCsDE1JzU5LjEiVw!5e0!3m2!1ses-419!2smx!4v1640045968279!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
         </div>
+        <div  id="sucursales" class="contendor-grid-mapas2">
+            <div> <img src="./img/localizanos2.jpg" alt="" width="400px"> </div>
+            
+            <div><img src="./img/localizanos1.jpeg" alt="" width="400px"></div>
+           
+            <div><img src="./img/localizanos3.jpeg" alt="" width="400px"></div>
+           
+            <div><img src="./img/localizanos4.jpeg" alt="" width="400px"></div>
+        </div>
+        
 
+        
         </main>
+        <footer id="contactanos" >
+
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="./img/tapiceria2.png" alt="" width="150px" >
+                    </div>
+                    <div class="terms">
+                        <p class="texto-justificado" >Contactanos pide tu cotización, menciona que viste esta paguina web y recibe un descuento extra,tenemos 
+                        las mejores soluciones sobre tapiceria para ti, contamos con amplio espacio de estacionamiento</p>
+                    </div>
+                </div>
+                <div class="box__footer">
+                    <h2>Dirección</h2>
+                    <a href="https://www.google.com">App Desarrollo</a>
+                    <a href="https://www.google.com/maps/@19.0695,-104.266417,16z?hl=es-419">Mapa</a>
+                    <p>Direccion:</p>
+                    <p>Carretera libramiento el Colomos</p>
+                    
+                </div>
+    
+                <div class="box__footer">
+                    <h2>Compañia</h2>
+                    <a href="#">Acerca de</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Procesos</a>
+                    <a href="#">Servicios</a>              
+                </div>
+    
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                </div>
+    
+            </div>
+    
+            <div class="box__copyright">
+                <hr>
+                <p>Todos los derechos reservados © 2021 <b>Tapiceria Hidalgo</b></p>
+            </div>
+        </footer>
     
 
     <!-- JavaScript Bundle with Popper -->
@@ -323,5 +385,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="./js/app.js"></script>
 <script src="./js/formulario.js"></script>
+<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </body>
 </html>
